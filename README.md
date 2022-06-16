@@ -1,2 +1,1 @@
-# foca-workshop-2022
-7th Workshop on the Future of Computing Architectures
+# Web page for the Workshop on the Future of Computing Architectures (FOCA)
