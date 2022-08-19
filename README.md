@@ -1,1 +1,1 @@
-# Web page for the Workshop on the Future of Computing Architectures (FOCA)
+# Web page for the 2022 Workshop on the Data Integrity and Secure Cloud Computing (DISCC)
