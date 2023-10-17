@@ -258,73 +258,91 @@ Before joining MIT in September 2012, He earned a Ph.D. in Electrical Engineerin
     <section id="program" class="section schedule">
         <div class="container">
             <div class="row">
-                <div class="col-md-11">
-                    <h3 class="section-title">Program</h3>
-					<em>To be announced</em>
-
-<!--					
-                    (<em>all times are in Central Time</em>)
-                    <br>
-                    <strong><sup>1</sup>Hybrid talks will happen live on-site and through webex, link will be emailed prior to the workshop</strong>
-                    </br>
-                    <strong>Recording of the talks will be made available under request: Email <a href="mailto:info@disccworkshop.org">info@disccworkshop.org</a> to request the video recordings</strong> 
+                <div class="col-md-12">
+                    <h3 class="section-title">Program:</h3>
+					
                     <p>
                     <table class="table table-hover">
                       <thead class="thead-light">
                         <tr>
-                          <th colspan=2 scope="col">October 2nd<sup></sup>, 2022</th>
+                          <th colspan=2 scope="col">Saturday October 28<sup>th</sup>, 2023<br><em>(all times are Eastern Time)</em></th>
                         </tr>
                       </thead>
                       <tbody>
-                          <tr>
-                          <th scope="row">8:30 -8:40am</th>
-                          <td>Welcome Remarks</td>
-                          </tr>
+                        <tr>
+                          <th scope="row" class="col-md-3">8:45 - 9:00 AM</th>
+                          <td>Introduction and Welcoming Remarks</td>
+                        </tr>
                         <tr bgcolor="#EBF5FB">
-                          <th scope="row">8:40 - 09:20am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="The massive scale of today’s data centers has recently led to the realization that silent data corruption (SDC) is a significant problem.  Instead of the soft errors that have previously been a main focus of online error detection schemes, many of these errors seem to be arising from test escapes, latent defects, or the impact of aging.  As a result, repeated field testing is becoming a critical need to find these defects and prevent SDC.  To do this well, field testing must be both highly effective and efficient.   This talk will present several Design for Test (DFT) circuit structures that can be used to make the best use of test time in the field—in some cases allowing the number of effective patterns applied to grow by a factor of 50, 100, or more without increasing test time."><strong> Keynote 1: Circuit Structures for Enhancing Efficient Defect Detection - Hybrid<sup>1</sup> </strong><br> Jennifer Dworak (SMU) </br>  </td> 
-                        </tr>
-                        <tr>
-                          <th scope="row">09:20 - 09:40am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="In this paper we propose Defecticon, a system for efficient mercurial core detection at runtime. Defecticon synthesizes customized test cases for each CPU core based on their characteristics, and provides APIs for developers to integrate the generated test cases to their applications. To generate customized test cases, Defecticon first identifies a set of potentially defective flip-flops and gates on each core, via scan-based testing with an intentionally reduced, abnormal voltage. Defecticon then uses symbolic execution and/or bounded model checking to generate the test case as an instruction sequence that, once executed, propagates the potential defects to a software-visible state like a general purpose register or the L1 cache. Finally, Defecticon generates the necessary assertions to identify the defects, and stores the test case in a way that can be loaded and executed for each core at application runtime.">
-                              <a href="assets/pdfs/1.pdf">Talk 1: Efficient Runtime Mercurial Core Detection with Core-Specific Test Case Synthesis <br> Jiacheng Ma (University of Michigan) </br> 
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">09:40 - 10:00am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="While hyper-scale data centers are reporting a growing number of Silent Data Errors (SDEs), existing detection alone is still insufficient to build an SDE-resilient system. In this work, we propose the adoption of Coded Computation to mitigate SDE computation errors efficiently. Based upon error correcting codes (ECC), which have been proven valuable to the mitigation of SDEs in storage and communication, coded computation performs computations in parallel that are homomorphic to ECC encoding/decoding functions, thus tolerating a configurable amount of computation errors. We first give a motivating example to compare coded computation with the traditional Triple Modular Redundancy. Then we introduce the state-of-the-art coded computation, their applications to SDEs mitigation mechanisms, and open questions for future work.">
-                              <a href="assets/pdfs/2.pdf">Talk 2: Tolerate Silent Data Errors with Coded Computation <br> Gefei Zuo (University of Michigan) </br></td>
+                          <th scope="row">9:00 - 10:00 AM</th>
+                          <td><strong>Invited Talk:</strong> <em>To be announced</em><br>
+							  Prof. Ajay Joshi <em>(Boston University)</em></td>
                         </tr>
                         <tr bgcolor="#FEF9E7">
-                          <th scope="row">10:00 - 10:15am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content=""><i>Break</i>
-                          </td>
+                          <th scope="row">10:00 - 10:30 AM</th>
+                          <td><i>Break</i></td>
                         </tr>
                         <tr>
+                          <th scope="row">10:30 - 11:00 AM</th>
+                          <td>"Fully Homomorphic Encryption for Computer Architects: A Fundamental Characterization Study"<br>
+							  Subhankar Pal <em>et al.</em> <em>(IBM Research)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:00 - 11:30 AM</th>
+                          <td>"Toward Practical Privacy-Preserving FHE CNN"<br>
+							  Jaiyoung Park <em>et al.</em> <em>(Seoul National University)</em></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:30 - 12:00 PM</th>
+                          <td>"Accelerating Garbled Circuits by Hardware-Software Co-Design"<br>
+							  Jianqiao Mo and Brandon Reagen <em>(New York University)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">12:00 - 1:30 PM</th>
+                          <td><i>Lunch</i></td>
+                        </tr>
                         <tr bgcolor="#EBF5FB">
-                          <th scope="row">10:15 - 10:55am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content=""><strong>Keynote 2: An Architecture to Accelerate Computation on Encrypted Data - Hybrid<sup>1</sup> </strong> <br> Daniel Sanchez (MIT) </br>  </td> 
+                          <th scope="row">1:30 - 2:30 PM</th>
+                          <td><strong>Invited Talk:</strong> <em>To be announced</em><br>
+							  Prof. Brandon Reagen <em>(New York University)</em></em></td>
                         </tr>
-                          <th scope="row">10:55 - 11:15am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="Privacy-preserving neural network (NN) inference solutions under homomorphic encryption (HE) have recently gained significant traction with several solutions that provide different latency-bandwidth trade-offs. Pruning the parameters of a NN model is a well-known approach to improving inference latency. However, pruning methods that are useful in the plaintext context may lend nearly negligible improvement in the HE case. In this work, we propose a novel set of pruning methods that reduce the latency and memory requirement, thus bringing the effectiveness of plaintext pruning methods to HE. We evaluate our methods on an autoencoder architecture on MNIST and show that our best method prunes ∼2× more ciphertexts than our adaptation of a state-of-the-art scheme called Hunter, for negligible increase in mean-square reconstruction loss.">
-                              <a href="assets/pdfs/3.pdf">Talk 3: Prune, Permute and Expand: Efficient Machine Learning under Non-Client-Aided Homomorphic Encryption <br> Subhankar Pal (IBM Research) </br> </td>
                         <tr>
+                          <th scope="row">2:30 - 3:00 PM</th>
+                          <td>"Amplification of Errors by Encryption"<br>
+							  Evgeny Manzhosov and Simha Sethumadhavan <em>(Columbia University)</em></td>
+                        </tr>
+                        <tr bgcolor="#FEF9E7">
+                          <th scope="row">3:00 - 3:30 PM</th>
+                          <td><i>Break</i></td>
+                        </tr>
                         <tr>
-                          <th scope="row">11:15- 11:35am</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="Privacy-preserving cloud computations ensure accurate operations on encrypted data without revealing sensitive information. Fully Homomorphic Encryption (FHE) allows such computations in the ciphertext space. The result remains in encrypted form and can only be decrypted by using the secret key. Due to its high degree of security, FHE has been adopted widely for applications based on medical or genomic data processing. Though FHE has been shown to be secure, side channels emanating from its operations on underlying hardware have not been thoroughly explored. In this work, we analyze the memory access patterns emanating from FHE-encrypted applications. For an example database query-based application, we show that memory access patterns from different queries can be distinguished by a well-resourced adversary. With the aid of ML-based classifiers, we can predict whether or not a query belongs to an entry in the database, with ∼90% accuracy."> 
-                              <a href="assets/pdfs/4.pdf">Talk 4: Characterizing Memory Side Channels in FHE Applications <br> Asmita Pal (University of Wisconsin-Madison) </br> </td>
-                          <tr>
-                          <th scope="row">11:35 - 12:15pm</th>
-                          <td>Open Mic: Discussion on Data Integrity and Secure Cloud Computing - Hybrid<sup>1</sup>
-                          <br>Confirmed Speakers (5 minutes each) : Moderated by IBM Organizers
-                          <br> <strong>Rama Govindaraju (Google)</strong>: Rama is a Director of Engineering at Google where he leads the Systems Infrastructure Performance Engineering team. Prior to that Rama was a Distinguished Engineer at IBM responsible for leading the Software Architecture at IBM's Supercomputing Lab where he led the development of 5 generations of Supercomputers. Prior to that Rama received his MS and Phd in Computer Science from Rensselaer Polytechnic Institute in New York and BE in Computer Science from BIT Mesra, Ranchi, India. 
-                          <br> <strong>Sreejit Chakravarty (Intel) </strong>: Dr. Sreejit Chakravarty is currently a Principal Engineer at Intel Corporation. His current responsibilities include die-disaggregation and interconnect testing, silent data error and functional safety. Prior to that he was an Associate professor of Computer Science where his work was funded by multiple National Science Foundation Grants. 
-                          <br> <strong>Subhashish Mitra (Stanford)</strong>: Subhasish Mitra is Professor of Electrical Engineering and of Computer Science at Stanford University. He directs the Stanford Robust Systems Group, leads the Computation Focus Area of the Stanford SystemX Alliance, and is a member of the Wu Tsai Neurosciences Institute. His research ranges across Robust Computing, NanoSystems, Electronic Design Automation (EDA), and Neurosciences
-                          </td>
-                          </tr>
-                        </tbody>
+                          <th scope="row">3:30 - 4:00 PM</th>
+                          <td>"SecNDP: Secure Near-Data Processing with Untrusted Memory"<br>
+							  Wenjie Xiong <em>(Virginia Tech)</em></td>
+                        </tr>
+                        <tr bgcolor="#EBF5FB">
+                          <th scope="row">4:00 - 5:00 PM</th>
+                          <td><strong>Panel: <em>to be announced</em></strong><br>
+							  Moderators: Dr. Bharat Sukhwani and Dr. Pradip Bose <em>(IBM Research)</em>
+							  <!--
+							  This panel will debate the future of AI from the view point of society in general and computer architects/scientists in particular.
+							  In many ways, the first indications of scary excitement (beyond normal science fiction giddiness) came in 2011, with Ken Jennings
+							  (human Jeopardy champion) uttering those famous words: <a href="https://www.youtube.com/watch?v=wvSBzKbecmo" target="_blank">«I for
+							  one welcome our new computer overlords!»</a>. Since then, with the steady and steep rise of AI/ML capabilities, the awe and excitement
+							  seems to be turning into downright panic, given the statements being made by some of the modern-day pioneers/catalysts of the AI/ML
+							  revolution as well as notable other scientists and intellectuals.<br>
+							  After the panelists provide their position statements, the floor will be open for Q&A, with questions posed from the audience.
+						      -->
+						  </td>
+                        </tr>						
+                        <tr>
+                          <th scope="row">5:00 PM</th>
+                          <td>Concluding Remarks</td>
+                        </tr>
+                      </tbody>
                     </table>
--->
+                    </p>
+
                 </div>
             </div>
         </div>
